@@ -3,9 +3,6 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 [image2]: https://user-images.githubusercontent.com/10624937/42135622-e55fb586-7d12-11e8-8a54-3c31da15a90a.gif "Soccer"
 
-
-# Project 3: Collaboration and Competition
-
 ### Introduction
 
 For this project, we will work with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment.
@@ -26,10 +23,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Getting Started
 - Clone the repository using the following command:
 
-`git clone --recurse-submodules https://github.com/sumitpai/Udacity-Tennis.git`
-
-**It is very important that you add the `--recurse-submodules` flag because rllib is an embedded sub repository. It will not be downloaded correctly without this flag.**
-
 - Download python 3.6 and Pytorch 1.0.
 
 - Install the unity environment as described here: [Getting Started section](https://github.com/udacity/deep-reinforcement-learning/tree/master/p3_collab-compet/README.md) (The Unity ML-agant environment is already configured by Udacity)
@@ -40,6 +33,3 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 - The Tennis.ipynb can be executed to train/test the agent. You can skip the training part and directly jump to the last cell to load the saved checkpoints and see the trained agent perform the control task. Load the appropriate environments for the tasks before loading the checkpoints.
 
-### Request
-
-- I am building a library for doing reinforcement learning. The rllib folder is another embedded repository. It would be updated time to time. All my three projects are using the same repo. If you are interested in collaborating, you can fork it and contribute. I would be very grateful for your contributions.
