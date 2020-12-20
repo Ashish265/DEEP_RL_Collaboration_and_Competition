@@ -64,6 +64,8 @@ The Actor networks utilised two fully connected layers with 256 and 128 units wi
 The Critic networks utilised two fully connected layers with 256 and 128 units with leaky_relu activation. The critic network has  an initial dimension the size of the state size plus action size.
 
 ## Plot of rewards
+The environment solved in 1013 episodes!
+
 ![Training](./image/training.PNG)
 
 
@@ -72,3 +74,5 @@ The Critic networks utilised two fully connected layers with 256 and 128 units w
 
 - Experiment with other algorithms — Tuning the DDPG algorithm required a lot of trial and error. Perhaps another algorithm such as Trust Region Policy Optimization (TRPO), [Proximal Policy Optimization (PPO)](Proximal Policy Optimization Algorithms), or Distributed Distributional Deterministic Policy Gradients (D4PG) would be more robust.
 - Add prioritized experience replay — Rather than selecting experience tuples randomly, prioritized replay selects experiences based on a priority value that is correlated with the magnitude of error. This can improve learning by increasing the probability that rare and important experience vectors are sampled.
+
+- Model like AlphaZero could also be used.
